@@ -2,7 +2,7 @@
 
 ### react-native-ico-material-design
 
-369 Icons
+423 Icons
 
 ## Usage
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[Google](https://www.flaticon.com/authors/google)
 
 ## Created by
 

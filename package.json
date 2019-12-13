@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-material-design",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Material Design Icons for React Native",
   "main": "src/index.js",
   "module": "src/index.js",
