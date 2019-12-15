@@ -1,8 +1,8 @@
-# Material Design Icons for React Native
+# material design Icons for React Native
 
 ### react-native-ico-material-design
 
-423 Icons
+369 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Material Design Icons](static/material-design.md)
+- [List of material design Icons](http://ico.simpleness.org/pack/material-design)
 
 ## Installation
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Google](https://www.flaticon.com/authors/google)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 

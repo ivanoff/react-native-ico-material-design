@@ -1,12 +1,11 @@
 {
   "name": "react-native-ico-material-design",
-  "version": "1.5.3",
-  "description": "Material Design Icons for React Native",
+  "version": "2.1.1",
+  "description": "material design Icons for React Native",
   "main": "src/index.js",
   "module": "src/index.js",
   "dependencies": {
-    "react": "16.9.0",
-    "react-native-svg": "^9.13.3"
+    "react-svg-main": "^0.1.2"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
     "Icons",
     "Icon",
     "SVG",
-    "Material Design"
+    "material design"
   ],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "bugs": {
