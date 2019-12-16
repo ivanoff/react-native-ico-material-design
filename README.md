@@ -1,8 +1,8 @@
-# material design Icons for React Native
+# Material Design Icons for React Native
 
 ### react-native-ico-material-design
 
-369 Icons
+423 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of material design Icons](http://ico.simpleness.org/pack/material-design)
+- [List of Material Design Icons](http://ico.simpleness.org/pack/material-design)
 
 ## Installation
 
