@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-material-design';
 render() {
     return (
         <>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="add-label-button" />
+          <Icon name="add-plus-button" height="40" width="40" />
+          <Icon name="add-to-queue-button" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "home"
+name | no |  | name of file | "add-label-button"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
