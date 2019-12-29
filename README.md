@@ -2,7 +2,13 @@
 
 ### react-native-ico-material-design
 
-423 Icons
+369 Vector Icons for React Native
+
+<img src="./static/add-label-button.png" alt="add-label-button" width="150" height="150"> <img src="./static/add-plus-button.png" alt="add-plus-button" width="150" height="150"> <img src="./static/add-to-queue-button.png" alt="add-to-queue-button" width="150" height="150">
+
+## List of icons
+
+- [List of Material Design Icons](http://ico.simpleness.org/pack/material-design)
 
 ## Usage
 
@@ -14,18 +20,14 @@ import Icon from 'react-native-ico-material-design';
 render() {
     return (
         <>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="add-label-button" />
+          <Icon name="add-plus-button" height="40" width="40" />
+          <Icon name="add-to-queue-button" color="red" />
         </>
     );
 }
 
 ```
-
-## List of icons
-
-- [List of Material Design Icons](static/material-design.md)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "home"
+name | no |  | name of icon | "add-label-button"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
@@ -69,7 +71,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Google](https://www.flaticon.com/authors/google)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 
