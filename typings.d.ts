@@ -1,5 +1,6 @@
 declare module 'react-native-ico-material-design' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'add-alarm-button' |
       'add-button-inside-black-circle' |
@@ -456,7 +457,7 @@ declare module 'react-native-ico-material-design' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
