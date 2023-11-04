@@ -426,7 +426,11 @@ declare module 'react-native-ico-material-design' {
       'write-email-envelope-button' |
       'youtube-logo';
 
+    type iconColors = ;
+
     type backgroundType = 'circle' | 'rect' | 'button';
+
+    type colorsType = Record<iconColors, string>;
 
     type positionType = 'top' | 'bottom' | 'right' | 'left' |
       'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
@@ -443,6 +447,7 @@ declare module 'react-native-ico-material-design' {
       fontSize?: string;
       position?: positionType;
       color?: string;
+      colors: colorsType;
       backgroundColor?: string;
       radius?: number;
     };
@@ -452,6 +457,7 @@ declare module 'react-native-ico-material-design' {
       width?: number;
       height?: number;
       color?: string;
+      colors: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;
