@@ -426,7 +426,7 @@ declare module 'react-native-ico-material-design' {
       'write-email-envelope-button' |
       'youtube-logo';
 
-    type iconColors = ;
+    type iconColors = string;
 
     type backgroundType = 'circle' | 'rect' | 'button';
 
