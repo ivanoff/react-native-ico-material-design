@@ -20,6 +20,7 @@
     "Material Design"
   ],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivanoff/react-native-ico-material-design/issues"
   },
