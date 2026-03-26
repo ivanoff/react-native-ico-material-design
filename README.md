@@ -4,7 +4,7 @@
 
 423 Vector Icons for React Native
 
-<img src="./static/add-label-button.png" alt="add-label-button" width="150" height="150"> <img src="./static/add-plus-button.png" alt="add-plus-button" width="150" height="150"> <img src="./static/add-to-queue-button.png" alt="add-to-queue-button" width="150" height="150">
+<img src="./static/screen-rotation-lock-button.png" alt="screen-rotation-lock-button" width="150" height="150"> <img src="./static/brochure-with-three-sections.png" alt="brochure-with-three-sections" width="150" height="150"> <img src="./static/drop-down-arrow.png" alt="drop-down-arrow" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-material-design';
 render() {
     return (
         <>
-          <Icon name="add-label-button" />
-          <Icon name="add-plus-button" height="40" width="40" />
-          <Icon name="add-to-queue-button" color="red" />
-          <Icon name="add-to-queue-button" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="add-plus-button" badge="10" />
-          <Icon name="add-plus-button" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="add-label-button" background="circle" />
-          <Icon name="add-label-button" background={{ type: "button", color: 'green' }} />
+          <Icon name="screen-rotation-lock-button" />
+          <Icon name="brochure-with-three-sections" height="40" width="40" />
+          <Icon name="drop-down-arrow" color="red" />
+          <Icon name="drop-down-arrow" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="brochure-with-three-sections" badge="10" />
+          <Icon name="brochure-with-three-sections" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="screen-rotation-lock-button" background="circle" />
+          <Icon name="screen-rotation-lock-button" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-material-design react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "add-label-button"
+name | no |  | name of icon | "screen-rotation-lock-button"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
